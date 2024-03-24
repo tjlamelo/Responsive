@@ -1,0 +1,87 @@
+* {
+  @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")
+
+  @import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")
+
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.header_font {
+  font-family: "Josefin Sans", sans-serif;
+  /* font-family: "Alata", sans-serif; */
+
+  background-image: url(./images/desktop/image-hero.jpg);
+  background-repeat: no-repeat;
+  
+  width: 100%;
+  height: 100vh;
+}
+
+div.header_font  header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 5rem;
+}
+
+header a,
+.logo {
+  color: white;
+}
+.logo {
+  padding-left: 19.5vh;
+}
+
+div.logo {
+  font-size: 35px;
+  font-weight: bold;
+}
+nav {
+  font-size: 20px;
+ 
+  display: flex;
+  gap: 1.5rem;
+  margin-right: 3vh;
+}
+.txtheader{
+ 
+
+  margin-top: 4vh;
+  margin-left: 19.5vh;
+  width: 75vh;
+  height: 35vh;
+  border: 1px solid white;
+  padding: 2rem;
+  
+}
+.txtheader span{
+  color: white;
+  font-size: 70px;
+
+ font-weight: normal;
+
+}
+
+.container{
+  position: relative;
+  margin-left: 19.5vh;
+display: inline-block;
+}
+.overlay{
+  position: absolute;
+ bottom:  0;
+  /* right: 10%; */
+ left: calc(75% + 10px);
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+  height: 50%;
+  z-index: 1;
+  padding-top: 10vh;
+
+}
+span.leader{
+  font-size: 40px;
+  padding: 10vh;
+  padding-top: 10vh;
+}
