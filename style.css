@@ -148,7 +148,6 @@ span.leader {
   padding: 10vh;
   padding-top: 10vh;
   text-align: center;
- 
 }
 div.leader2 {
   color: rgba(0, 0, 0, 0.521);
@@ -172,15 +171,12 @@ div.leader2 {
     color: rgb(0, 0, 0);
     /* text-align: justify; */
     display: inline;
-    
-    text-align: center;
 
+    text-align: center;
   }
   div.leader2 {
-   
     font-size: 30px;
     text-align: center;
-    
   }
 }
 
@@ -207,9 +203,6 @@ div.our input {
   margin-left: 19.5vh;
   margin-right: 19.5vh;
   justify-content: space-around;
- 
-
-
 }
 .box {
   position: relative;
@@ -217,7 +210,6 @@ div.our input {
   padding: 10px;
   box-sizing: border-box;
   text-align: center;
-
 }
 .box img {
   width: 100%;
@@ -230,76 +222,65 @@ div.our input {
   bottom: 0;
   margin-left: 3vh;
   font-size: 2.1vw;
-  
 }
-.box p:nth-child(1){
+.box p:nth-child(1) {
   bottom: 30px;
-} 
+}
 @media (max-width: 735px) {
+  .ourtxt {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 
-  
-.ourtxt {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-
-  font-size: 40px;
-  margin-bottom: 4vw;
-}
-div.our input {
-  display: none;
-}
+    font-size: 40px;
+    margin-bottom: 4vw;
+  }
+  div.our input {
+    display: none;
+  }
   .boximg {
-    
     margin-left: 2vh;
     margin-right: 2vh;
-   
   }
   .box img {
     width: 100%;
     height: 30vw;
-   object-fit: cover ;
-    
+    object-fit: cover;
   }
   .box {
-  margin-top: 0%;
-    
+    margin-top: 0%;
+
     width: 100%;
-    
   }
   .box p {
-  
     font-size: 7vw;
-    
   }
-  .box p:nth-child(1){
+  .box p:nth-child(1) {
     bottom: 40px;
-  } 
+  }
 }
 
-footer{
+footer {
   background-color: black;
   color: white;
   width: 100%;
   height: 20vh;
   margin-top: 15vh;
- padding-top: 7vh;
- position: relative;
+  padding-top: 7vh;
+  position: relative;
 }
-div.foot{
+div.foot {
   display: flex;
   justify-content: space-between;
   align-items: center;
- 
 }
-div.foot .icon{
+div.foot .icon {
   display: flex;
   gap: 1.5rem;
   padding-right: 19.5vh;
-
 }
-.logo1{
+.logo1 {
   padding-left: 19.5vh;
   font-size: 35px;
   font-weight: bold;
@@ -311,42 +292,67 @@ div.foot2 {
   align-items: center;
   padding-left: 19.5vh;
   padding-top: 5vh;
-  
 }
-div.foot2  .logo2 div a{
+div.foot2 .logo2 div a {
   color: white;
-  }
+}
 
-div.foot2 .icon2{
+div.foot2 .icon2 {
   color: rgba(255, 255, 255, 0.61);
 
   display: flex;
   gap: 1.5rem;
   padding-right: 19.5vh;
-
 }
 
-@media (max-width: 735px){
-  
-  div.foot{
+@media (max-width: 735px) {
+  footer {
+    height: 60vh;
+  }
+  .logo1 {
+    padding-left: 5vh;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  div.foot {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
   }
-  div.foot .icon{
+  div.foot .icon {
     display: flex;
-   position: absolute;
-   bottom: 0;
-   align-items: center;
-   justify-content: center;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
   }
 
-  div.foot2  .logo2 div a{
+  div.foot2 .logo2 div a {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    }
+    position: relative;
+    left: 20vw;
+    padding-top: 1rem;
+    padding-top: 04vh;
+    font-size: 20px;
+  }
+
+  .icon2 {
+    position: absolute;
+    bottom: 0;
+    margin-top: 20vh;
+    left: 29vw;
+    
+
+  }
+  .foot .icon {
+    margin-top: 2vh;
+    position: absolute;
+    top: 70%;
+    left: 35vw;
+  }
 }
